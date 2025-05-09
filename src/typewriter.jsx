@@ -16,11 +16,7 @@ const Typewriter = (props) => {
     }
   }, [currentIndex, flag]);
 
-  return (
-    <ul>
-      <li>{currentFlag}</li>
-    </ul>
-  );
+  return <span>{currentFlag}</span>;
 };
 
 export default Typewriter;
